@@ -5,7 +5,7 @@
 - [Integration methods](#integration-methods)
   - [Push-pull](#push-pull)
   - [Realtime](#realtime)
-  - [SuperAPI](#superapi)
+  - [Proxy Endpoint](#proxy-endpoint)
 
 [SERP Scraper API](https://oxylabs.io/products/scraper-api/serp) is a robust tool built to extract large volumes of public data from the leading search engines in real-time mode. With coordinate-level precision, you can use SERP Scraper API to access different search engines’ pages, such as regular search, hotel availability, keyword page, and other data types. SERP Scraper API is optimal for many business cases, including ads data tracking, brand monitoring, and others.
 
@@ -23,7 +23,7 @@ curl --user "USERNAME:PASSWORD" 'https://realtime.oxylabs.io/v1/queries' -H "Con
 
 ## Integration methods
 
-SERP Scraper API offers three main integration methods: Push-Pull, Realtime, and SuperAPI, each of which has unique benefits.
+SERP Scraper API offers three main integration methods: Push-Pull, Realtime, and Proxy Endpoint, each of which has unique benefits.
 
 ### Push-pull  
 
@@ -248,9 +248,9 @@ curl --user "USERNAME:PASSWORD" 'https://realtime.oxylabs.io/v1/queries' -H "Con
 }
 ```
 
-### SuperAPI
+### Proxy Endpoint
 
-**SuperAPI request sample:**
+**Proxy Endpoint request sample:**
 
 ```shell
 curl -k -x realtime.oxylabs.io:60000 -U USERNAME:PASSWORD -H "X-Oxylabs-Geo-Location: United States" "SEARCH_ENGINE_URL"
