@@ -7,11 +7,11 @@
   - [Realtime](#realtime)
   - [Proxy Endpoint](#proxy-endpoint)
 
-[SERP Scraper API](https://oxylabs.io/products/scraper-api/serp) is a robust tool built to extract large volumes of public data from the leading search engines in real-time mode. With coordinate-level precision, you can use SERP Scraper API to access different search engines’ pages, such as regular search, hotel availability, keyword page, and other data types. SERP Scraper API is optimal for many business cases, including ads data tracking, brand monitoring, and others.
+[SERP Scraper API](https://oxy.yt/3rNM) is a robust tool built to extract large volumes of public data from the leading search engines in real-time mode. With coordinate-level precision, you can use SERP Scraper API to access different search engines’ pages, such as regular search, hotel availability, keyword page, and other data types. SERP Scraper API is optimal for many business cases, including ads data tracking, brand monitoring, and others.
 
 Read this Quick Start Guide to learn about SERP Scraper API, its technical features, how it works, and how to get started.
 
-For a detailed explanation, see our [blog post](https://oxylabs.io/blog/serp-scraper-api-quick-start-guide).
+For a detailed explanation, see our [blog post](https://oxy.yt/NrMQ).
 
 ## Authentication
 
@@ -256,4 +256,4 @@ curl --user "USERNAME:PASSWORD" 'https://realtime.oxylabs.io/v1/queries' -H "Con
 curl -k -x realtime.oxylabs.io:60000 -U USERNAME:PASSWORD -H "X-Oxylabs-Geo-Location: United States" "SEARCH_ENGINE_URL"
 ```
 
-If you wish to find out more about SERP Scraper API Quick Start Guide, see our [blog post](https://oxylabs.io/blog/serp-scraper-api-quick-start-guide).
+If you wish to find out more about SERP Scraper API Quick Start Guide, see our [blog post](https://oxy.yt/NrMQ).
