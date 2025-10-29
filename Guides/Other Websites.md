@@ -178,7 +178,7 @@ After running the above code, you should see a new JSON file with parsed data sa
 The geo-location parameter will help you collect geo-restricted data from websites where the content is only available in certain countries. This parameter also helps to overcome IP bans and other anti-scraping measures. The example below uses a new IP address based in the United States with each request.
 
 ```python
-    'geo-location': 'United States'
+    'geo_location': 'United States'
 ```
 
 ### Example
@@ -192,7 +192,7 @@ password = 'PASSWORD'
 payload = {
     'source': 'universal',
     'url': 'https://sandbox.oxylabs.io/products',
-    'geo-location': 'United States'
+    'geo_location': 'United States'
 }
 
 response = requests.post('https://realtime.oxylabs.io/v1/queries', json=payload, auth=(username, password))
@@ -221,7 +221,7 @@ password = 'PASSWORD'
 payload = {
     'source': 'universal',
     'url': 'https://sandbox.oxylabs.io/products',
-    'geo-location': 'United States',
+    'geo_location': 'United States',
     'render': 'html'
 }
 
@@ -253,7 +253,7 @@ from pprint import pprint
 payload = {
     'source': 'universal',
     'url': 'https://sandbox.oxylabs.io/products',
-    'geo-location': 'United States'
+    'geo_location': 'United States'
 }
 
 response = requests.request(
@@ -416,7 +416,7 @@ from pprint import pprint
 payload = {
     'source': 'universal',
     'url': 'https://sandbox.oxylabs.io/products',
-    'geo-location': 'United States'
+    'geo_location': 'United States'
 }
 
 response = requests.request(
@@ -467,7 +467,7 @@ proxies = {
 }
 
 headers = {
-    'x-oxylabs-geo-location': 'United States'
+    'x-oxylabs-geo_location': 'United States'
 }
 
 response = requests.request(
