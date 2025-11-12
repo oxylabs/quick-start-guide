@@ -120,7 +120,7 @@ with open('scraped_website.html', 'w') as output:
 After running this basic scraper, try out other parameters that will help you retrieve specific data from your target website.
 
 ## 6. Enable Parsing
-If you want to get parsed data, you can utilize the [Custom Parser](https://developers.oxylabs.io/scraper-apis/custom-parser) feature to define your own parsing logic. It goes hand in hand with our **AI-powered OxyCopilot** feature, which can quickly generate `parsing_instructions` based on the prompts you provide in English. To access **OxyCopilot**, visit the [dashboard](https://dashboard.oxylabs.io/) and head to the **Scraper API Playground**.
+If you want to get parsed data, you can utilize the [Custom Parser](https://developers.oxylabs.io/scraper-apis/custom-parser) feature to define your own parsing logic. It goes hand in hand with our **AI-powered OxyCopilot** feature, which can quickly generate `parsing_instructions` based on the prompts you provide in English. To access **OxyCopilot**, visit the [dashboard](https://dashboard.oxylabs.io/) and head to the **Web Scraper API Playground**.
 
 ### Example
 
