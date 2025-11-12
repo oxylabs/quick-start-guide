@@ -155,7 +155,7 @@ with open('parsed_website.json', 'w', encoding='utf-8') as output:
 ```
 After running the above code, you should see a new JSON file with parsed data saved in your working directory.
 
-If we don't have a dedicated parser for your target search engine page, you can use the [Custom Parser](https://developers.oxylabs.io/scraper-apis/custom-parser) feature instead to define your own parsing logic. It goes hand in hand with our **AI-powered OxyCopilot** feature, which can quickly generate `parsing_instructions` based on the prompts you provide in English. To access **OxyCopilot**, visit the [dashboard](https://dashboard.oxylabs.io/) and head to the **Scraper API Playground**.
+If we don't have a dedicated parser for your target search engine page, you can use the [Custom Parser](https://developers.oxylabs.io/scraper-apis/custom-parser) feature instead to define your own parsing logic. It goes hand in hand with our **AI-powered OxyCopilot** feature, which can quickly generate `parsing_instructions` based on the prompts you provide in English. To access **OxyCopilot**, visit the [dashboard](https://dashboard.oxylabs.io/) and head to the **Web Scraper API Playground**.
 
 
 ## 7. Set the Geo-location
