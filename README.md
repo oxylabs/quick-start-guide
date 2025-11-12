@@ -17,4 +17,4 @@ Each guide will walk you through setting up the API from scratch. Configuring it
 
 ## Interface for Testing Web Scraper API
 
-Alternatively, you may want to use our intuitive web-based interface to test the capabilities of Web Scraper API. After registering a free account on the Oxylabs [dashboard](https://dashboard.oxylabs.io/), visit the **Scraper API Playground**. Here, you can also try out our **AI-powered OxyCopilot** feature, which creates scraping and parsing codes by using prompts written in plain English language.
+Alternatively, you may want to use our intuitive web-based interface to test the capabilities of Web Scraper API. After registering a free account on the Oxylabs [dashboard](https://dashboard.oxylabs.io/), visit the **Web Scraper API Playground**. Here, you can also try out our **AI-powered OxyCopilot** feature, which creates scraping and parsing codes by using prompts written in plain English language.
