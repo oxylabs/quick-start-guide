@@ -204,7 +204,7 @@ with open('scraped_website.html', 'w') as output:
 ```
 
 ## 8. Render JavaScript
-If a website uses JavaScript to load content dynamically, use the `render` parameter and set it to `html` to enable our internal headless browser: 
+If a website uses JavaScript to load content dynamically, use the `render` parameter and set it to `html` to enable our internal headless browser mode: 
 
 ```python
     'render': 'html'
