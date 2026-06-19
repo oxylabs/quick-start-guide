@@ -13,7 +13,7 @@
 
 These quick start guides for Oxylabs' [Web Scraper API](https://oxylabs.io/products/scraper-api/web) will show how to get the most use out of a **one-week free trial** and help you decide whether this scraping solution serves your business’s needs.
 
-Each guide will walk you through setting up the API from scratch. Configuring it with a website of your choice will give you a good grasp of the data quality, ease of integration, and whether this product is right for you. We'll show you basic code samples using Python, but you can also find more programming languages and more complex examples in our [documentation](https://developers.oxylabs.io/scraper-apis/web-scraper-api).
+Each guide will walk you through setting up the API from scratch. Configuring it with a website of your choice will give you a good grasp of the data quality, ease of integration, and whether this product is right for you. We'll show you basic code samples using Python, but you can also find more programming languages and more complex examples in our [documentation](https://developers.oxylabs.io/products/web-scraper-api).
 
 ## Interface for Testing Web Scraper API
 
